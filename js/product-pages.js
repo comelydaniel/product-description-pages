@@ -51,3 +51,4 @@ decreaseBtnThree.addEventListener('click', () => {
         quantityThree.innerText = nume;
     }
 })
+

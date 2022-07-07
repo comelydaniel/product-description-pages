@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Inter', sans-serif !important;
 }
@@ -51,13 +45,8 @@ footer {
 }
 
 @media (max-width: 1025px) {
-     h3 {
-        font-size: 33px !important;
-     }
-
     .product-description {
         width: 100% !important;
-        font-size: 19px!important;
     }
 
     .add-box {
@@ -69,7 +58,7 @@ footer {
     }
 
     .related-box{
-        width: 25% !important;
+        width: 20% !important;
     }
 }
 
@@ -98,10 +87,6 @@ footer {
     .add-box{
         margin: 0 auto !important;
         margin-bottom: 20px !important;
-    }
-
-    .related-box{
-        width: 20% !important;
     }
 
     .product-description{
