@@ -32,15 +32,13 @@
                   </li>
                   <li class="nav-item me-4">
                     <a class="nav-link link-dark" style="font-weight: 400; font-size: 18px;" href="#"><img src="img/messages-3.png" alt="icon" class="me-4 d-lg-none">Contact Us</a>
-                  </li>
-                  <li class="d-none">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>         
+                  </li>       
                 </ul>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item mt-1">
                         <button type="button" class="btn btn-outline-white px-0 px-lg-3 py-0" id="not-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                             <img src="img/notification.png" alt="logo"><span class="d-lg-none ps-1 ms-3" style="font-weight: 400; font-size: 18px;">Notifications</span>
+                            <div class="notification-counter">3</div>
                         </button>
                     </li>
                     <li class="nav-item dropdown d-none d-lg-block">
@@ -69,7 +67,7 @@
           <div class="modal-content px-4">
             <div class="modal-header flex-column">
                 <button type="button" class="btn-close align-self-start" data-bs-dismiss="modal" aria-label="Close"></button>
-              <h5 class="modal-title" id="staticBackdropLabel" style="font-weight: 600; font-size: 40px;">Notifications(3)</h5>
+              <h5 class="modal-title" id="staticBackdropLabel" style="font-weight: 600; font-size: 40px;">Notifications<span class="unread-notification">(3)</span></h5>
             </div>
             <div class="modal-body mt-3">
               <div class="message-box p-3 mb-3 d-flex justify-contents-evenly" style="background: rgba(255, 238, 238, 0.99); color: rgba(199, 0, 0, 0.99);">
@@ -136,15 +134,15 @@
     <section class="container-fluid">
        <div class="px-2 px-lg-5 mx-0 mx-lg-2 pb-4 pt-4 pt-lg-0">
            <h3 style="font-weight: 600; font-size: 20px;" class="pb-3 ps-5">Related products</h3>
-           <div class="d-flex justify-content-between ps-lg-5">
-                    <div class="related-box">
-                        <a href="index.html"><img src="img/trash-bag.png" alt="A trash dumpster" width="100%"></a>
+           <div class="row ps-lg-5">
+                    <div class="col-4">
+                        <a href="index.html"><img src="img/trash-bag.png" alt="A trash dumpster" class="img-fluid"></a>
                     </div>
-                    <div class="related-box">
-                        <a href="#"><img src="img/funny-bag.png" alt="A trash dumpster" width="100%"></a>
+                    <div class="col-4">
+                        <a href="#"><img src="img/funny-bag.png" alt="A trash dumpster" class="img-fluid"></a>
                     </div>
-                    <div class="related-box">
-                        <a href="#"><img src="img/roll-trashbag.png" alt="A trash dumpster" width="100%"></a>
+                    <div class="col-4">
+                        <a href="#"><img src="img/roll-trashbag.png" alt="A trash dumpster" class="img-fluid"></a>
                     </div>
            </div>
        </div>
